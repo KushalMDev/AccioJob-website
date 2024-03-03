@@ -1,0 +1,211 @@
+.btn1{
+    padding: 10px;
+    width: 110px;
+}
+.studentcard{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px grey;
+}
+.navbar{
+    /* position: sticky;
+    top: 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 15px;
+    background-color:lightblue;
+}
+#img2{
+width: 500px;
+height: 500px;
+overflow: hidden;
+}
+.features{
+    width: 80%;
+    box-shadow: 0px 0px 5px lightgray;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(51, 51, 216);
+    padding: 10px;
+}
+.navbar-nav{
+    gap: 17px;
+    margin-left: 450px;
+}
+@media screen and (max-width:993px){
+    .navbar-nav{
+        margin-left: auto;
+    }
+    
+}
+@media screen and (max-width:774px){
+   .maincontainer{
+    flex-wrap: wrap;
+   }
+    
+}
+@media screen and (max-width:853px){
+    .cardcontainer{
+     flex-wrap: wrap;
+    }
+     
+ }
+ @media screen and (max-width:610px){
+    .studentcardcontainer{
+     flex-direction: column;
+    }
+    .bodystudent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     
+ }
+#blue{
+    color: blue;
+}
+.stat-item{
+    display: flex;
+    gap: 5px;
+}
+#brown{
+    color: #ff7169;
+}
+.eg2{
+    width: 500px;
+}
+.stats{
+    gap: 25px;
+    box-shadow: 0px 0px 3px;
+    border-width: 0px;
+}
+.contactNow{
+    box-shadow: 0px 0px 20px lightgray;
+}
+#medal{
+    background-color:#fce7b1;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    color: 
+    #753b11;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+}
+.accreditation{
+    background-color:#fef7e6;
+    justify-content: space-evenly;
+}
+.items{
+    /* justify-content: space-between; */
+    border-bottom: 1px solid lightgray;
+    padding: 6px;
+    /* flex-wrap: wrap; */
+}
+.courses{
+    background-color: rgb(211, 234, 241);
+    border-top: 5px solid rgb(129, 79, 129);
+    border-bottom: 5px solid rgb(129, 79, 129);
+
+}
+.rb{
+    background-color: rgb(240, 192, 192);
+    color:  rgb(211, 112, 112);;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cards1,.cards2{
+    height: 550px;
+    width: 500px;
+   
+    background-color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards1:hover,.cards2:hover{
+
+    border: 2px solid blue;
+}
+.lb{
+    background-color: lightblue;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.courses>h4{
+    text-align: center;
+    color: rgb(72, 169, 207);
+    font-size: xx-large;
+}
+.courses>h5{
+    text-align: center;
+    color: rgb(165, 108, 218)
+    /* font-size: xx-large; */
+}
+.heading{
+ justify-items: left;
+}
+.headingcontent{
+margin-left: auto;
+}
+.row1 img{
+    width: 150px;
+    height: 100px;
+}
+.row1 img:hover{
+    transition: all 5s ease;
+    /* background-color: red; */
+    border: 2px solid grey;
+   
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mentors>h4{
+    color: blue;
+}
+.eg1{
+    border-top: 5px solid orangered;
+}
+.companies{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    animation: moveCards 25s linear infinite;
+}
+@keyframes moveCards {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.studentimage{
+    border-radius: 10px;
+}
+.studentimage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#ln{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.studentcardcontainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
