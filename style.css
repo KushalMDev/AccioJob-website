@@ -6,6 +6,12 @@
     border-radius: 10px;
     box-shadow: 0px 0px 3px grey;
 }
+.mentors{
+    border-top: 5px solid lightblue;
+}
+.studentsection{
+    border-top: 5px solid lightblue;
+}
 .navbar{
     /* position: sticky;
     top: 0px; */
